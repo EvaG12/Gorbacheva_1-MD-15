@@ -1,0 +1,12 @@
+color1 = str(input("введите название первичного цвета"))
+color2 = str(input("введите название первичного цвета"))
+pcol =  ("красный", "желтый","синий")
+if color1 not in pcol or color2  not in pcol:
+    print("error")
+else:
+    if (color1 == "красный" and color2 == "желтый") or (color2 == "красный" and color1 == "желтый"):
+        print ("оранжевый")
+    elif  (color1 == "красный" and color2 == "синий") or (color2 == "красный" and color1 == "синий"):
+        print ("фиолетовый")
+    elif (color1 == "синий" and color2 == "желтый") or (color2 == "синий" and color1 == "желтый"):
+        print ("зеленый")
