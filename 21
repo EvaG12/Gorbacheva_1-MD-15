@@ -1,0 +1,6 @@
+pass1=str(input("введите пароль"))
+pass2=str(input("введите пароль повторно"))
+if pass1 == pass2:
+    print ("пароль принят")
+else:
+    print("пароль не притнят")
